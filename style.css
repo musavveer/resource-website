@@ -215,3 +215,24 @@ header h1 {
 .hide {
     display: none;
 }
+
+/* MQP */
+.container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding-left: 40px;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.mqp {
+    height: 100px;
+    color: #ffffff;
+    position: relative;
+    align-items: center;
+    margin: auto;
+}
