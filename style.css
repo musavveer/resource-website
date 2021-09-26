@@ -154,12 +154,6 @@ footer {
     text-align: center;
 }
 
-/* PDF */
-.sub-desc , .sub-content {
-    color: aquamarine;
-    text-align: center;
-}
-
 /* blogs */
 header {
     padding: 30px;
@@ -216,8 +210,8 @@ header h1 {
     display: none;
 }
 
-/* MQP */
-.container {
+/* MQP , notes*/
+.container , .module {
     width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -225,13 +219,13 @@ header h1 {
     padding-left: 40px;
 }
 
-.container a {
+.container a, .module a {
     text-decoration: none;
 }
 
-.mqp {
+.mqp, .mod-name {
     height: 100px;
-    color: #ffffff;
+    color: aquamarine;
     position: relative;
     align-items: center;
     margin: auto;
